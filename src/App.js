@@ -172,7 +172,6 @@ class Schedule extends Component {
           onChange={this.handleChange.bind(this)}
         />
         {title}
-
         <Table value={this.state.schedules} options={this.state.headOptions} />
       </div>
     );
@@ -183,7 +182,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <h1>Enter a Bart station name to see the schedule</h1>
+        <h1>Enter information to see Bart station schedule</h1>
         <Schedule onChange={() => this.handleChange} />
       </div>
     );
