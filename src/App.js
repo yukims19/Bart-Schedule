@@ -54,7 +54,7 @@ class Table extends Component {
                 onChange={this.handleChange.bind(this)}
               >
                 <option value="" selected>
-                  select a station
+                  Filter by HeadStationx
                 </option>
                 {this.props.options.map(value => {
                   return <option value={value}>{value}</option>;
